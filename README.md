@@ -1,4 +1,3 @@
-# Student-Performance-Prediction-Using-Explainable-and-Fair-Machine-Learning
 # 📘 Student Performance Prediction Using Explainable and Fair Machine Learning
 ### *Final Year Research Project — BSc (Hons) Computer Science (Data Science Pathway)*  
 ### **St Mary’s University, Twickenham, London**
