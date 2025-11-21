@@ -23,3 +23,82 @@ This repository contains:
 To develop an interpretable and fair machine learning framework for predicting student academic performance, using Explainable AI techniques (SHAP and LIME) and subgroup fairness evaluation.
 
 ---
+
+
+---
+
+## 💾 Dataset
+**UCI Student Performance Dataset**  
+- Publicly available and anonymised  
+- Two datasets: `student-mat.csv` and `student-por.csv`  
+Link: https://archive.ics.uci.edu/dataset/320/student+performance
+
+*Ethics:* No identifiable information. Does not require formal ethics approval.
+
+---
+
+## 🧹 Data Pre-processing
+Includes:
+- Cleaning & missing value handling  
+- Label encoding  
+- Normalisation  
+- Feature engineering  
+- Subgroup creation (gender, parental education, address)  
+- Exploratory Data Analysis (EDA)  
+
+---
+
+## 🤖 Machine Learning Models
+
+### 1️⃣ Logistic Regression
+Simple, interpretable baseline.
+
+### 2️⃣ Random Forest
+Non-linear benchmark with strong performance.
+
+### 3️⃣ XGBoost
+High-performing gradient boosting model.
+
+---
+
+## ✨ Explainable AI (XAI)
+
+### 🔹 SHAP  
+- Global & local feature attributions  
+- Clear visualisations of model reasoning  
+
+### 🔹 LIME  
+- Local explanations  
+- Human-understandable approximations of model decisions  
+
+---
+
+## ⚖️ Fairness Analysis
+Assessed across subgroups:
+- Gender  
+- Parental education  
+- Address (Urban vs Rural)  
+
+Metrics include:
+- Error rate parity  
+- Precision/recall comparison  
+- SHAP disparity evaluation  
+
+---
+
+## 📈 Expected Outputs
+- Cleaned dataset  
+- Baseline ML models  
+- Explainability visualisations  
+- Fairness evaluation report  
+- Complete dissertation  
+
+---
+
+## 🧪 Installation
+
+```bash
+git clone https://github.com/your-username/student-performance-xai.git
+cd student-performance-xai
+pip install -r requirements.txt
+
