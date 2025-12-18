@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Data files (user must download separately)
+# data/student-mat.csv
+# data/student-por.csv
+# Uncomment above lines if you do NOT want to track data files in git.
+
+# Generated outputs — re-created by running the notebook
+results/artefacts.pkl
+results/figures/*.png
+results/tables/*.csv
+results/audit/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Patch helper scripts (used during development, not part of submission)
+patch_notebook.py
+patch_notebook_v2.py
+git_setup.py
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.pytest_cache
+test-results/
+junit*.xml
