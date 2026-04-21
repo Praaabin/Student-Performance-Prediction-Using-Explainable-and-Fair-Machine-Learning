@@ -113,10 +113,11 @@ def build_summary_points(y_pred, y_proba, failures, absences, study_time,
 class TestRiskLabelAssignment:
 
     @pytest.mark.parametrize("proba,expected_label", [
-        (0.80, "LOW"),      # risk_pct = 20% → LOW
-        (0.70, "LOW"),      # risk_pct = 30% → boundary (< 30 is LOW → 30 is MODERATE)
-        (0.65, "MODERATE"), # risk_pct = 35%
-        (0.50, "MODERATE"), # risk_pct = 50%
+        (0.80, "LOW"),       # risk_pct = 20% → LOW
+        (0.71, "LOW"),       # risk_pct = 29% → LOW (< 30)
+        (0.70, "MODERATE"),  # risk_pct = 30% → MODERATE (not strictly < 30)
+        (0.65, "MODERATE"),  # risk_pct = 35%
+        (0.50, "MODERATE"),  # risk_pct = 50%
     ])
     def test_pass_risk_labels(self, proba, expected_label):
         outcome, label = assign_risk_label(1, proba)
