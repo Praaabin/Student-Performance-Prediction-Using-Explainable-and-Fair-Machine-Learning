@@ -1,0 +1,5 @@
+Attribute,Demographic Parity Diff,Equal Opportunity Diff,FPR Difference,Accuracy Difference
+sex,0.0627,0.0066,0.23,0.0356
+address,0.0145,0.0189,0.0708,0.0085
+Medu,0.2292,0.2216,0.2273,0.1348
+subject,0.0585,0.0258,0.019,0.0801

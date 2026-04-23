@@ -23,10 +23,10 @@ env/
 # Uncomment above lines if you do NOT want to track data files in git.
 
 # Generated outputs — re-created by running the notebook
-results/artefacts.pkl
-results/figures/*.png
-results/tables/*.csv
-results/audit/
+# results/artefacts.pkl
+# results/figures/*.png
+# results/tables/*.csv
+# results/audit/
 
 # Streamlit
 .streamlit/
