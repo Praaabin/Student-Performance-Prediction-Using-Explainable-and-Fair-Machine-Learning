@@ -22,7 +22,7 @@
 
 ---
 
-## 🌟 Why This Project Matters
+## Why This Project Matters
 
 Every year, thousands of students fall through the cracks — not because they lack potential, but because educators lack the tools to identify who needs help **early enough** to make a difference.
 
@@ -32,7 +32,7 @@ This is not just a prediction engine. It is a **decision-support framework** tha
 
 ---
 
-## ✨ What Makes This Different
+## What Makes This Different
 
 | Traditional ML Pipeline | This Project |
 |---|---|
@@ -196,11 +196,11 @@ The `results/` folder is pre-computed and included in the repository. You can la
 streamlit run dashboard/app.py
 ```
 
-Open your browser at **`http://localhost:8501`** ✨
+Open your browser at **`http://localhost:8501`** 
 
 ---
 
-## 🔁 Reproducing Results from Scratch
+## Reproducing Results from Scratch
 
 If you want to re-run the full ML pipeline and regenerate all outputs:
 
@@ -239,7 +239,7 @@ All figures are saved to `results/figures/` and all tables to `results/tables/` 
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 The test suite validates every critical component independently — no Streamlit launch required.
 
@@ -312,7 +312,7 @@ Seven domain-informed features were derived to capture non-linear academic signa
 
 ---
 
-## 🌿 Git Branch Strategy
+## Git Branch Strategy
 
 | Branch | Purpose | Period |
 |--------|---------|--------|
@@ -339,7 +339,7 @@ All feature branches are merged into `main` via `--no-ff` merge commits to prese
 
 <div align="center">
 
-**Built with 🧠 by Prabin Pokhrel · 2308806**
+**Built by Prabin Pokhrel · 2308806**
 
 *Interpretable AI · Fairness-Aware ML · Educational Analytics*
 
