@@ -14,7 +14,7 @@
 
 <br/>
 
-> *"A model that cannot explain itself cannot be trusted — and in education, trust is everything."*
+> *"A model that cannot explain itself cannot be trusted - and in education, trust is everything."*
 
 **Prabin Pokhrel · 2308806 · CPS6001 · Supervisor: Elisabetta Canetta**
 
