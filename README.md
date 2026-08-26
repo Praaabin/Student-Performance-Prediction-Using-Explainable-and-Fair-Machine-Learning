@@ -46,7 +46,7 @@ This is not just a prediction engine. It is a **decision-support framework** tha
 
 ## 🔬 Research Question
 
-> **How can Explainable AI techniques — specifically SHAP and LIME — be used to improve the interpretability and fairness of machine learning models that predict student academic performance from demographic, behavioural, and academic data?**
+> **How can Explainable AI techniques - specifically SHAP and LIME - be used to improve the interpretability and fairness of machine learning models that predict student academic performance from demographic, behavioural, and academic data?**
 
 ---
 
