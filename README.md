@@ -24,11 +24,11 @@
 
 ## Why This Project Matters
 
-Every year, thousands of students fall through the cracks — not because they lack potential, but because educators lack the tools to identify who needs help **early enough** to make a difference.
+Every year, thousands of students fall through the cracks - not because they lack potential, but because educators lack the tools to identify who needs help **early enough** to make a difference.
 
-This project tackles that problem head-on. It builds a machine learning system that predicts whether a secondary school student will **pass or fail** — and more importantly, **explains exactly why** that prediction was made and **proves the system is fair** across demographic groups.
+This project tackles that problem head-on. It builds a machine learning system that predicts whether a secondary school student will **pass or fail** - and more importantly, **explains exactly why** that prediction was made and **proves the system is fair** across demographic groups.
 
-This is not just a prediction engine. It is a **decision-support framework** that puts interpretability and fairness at the centre — the way any AI system touching human lives should.
+This is not just a prediction engine. It is a **decision-support framework** that puts interpretability and fairness at the centre - the way any AI system touching human lives should.
 
 ---
 
@@ -65,7 +65,7 @@ This is not just a prediction engine. It is a **decision-support framework** tha
 </div>
 
 **Top findings from XAI analysis:**
-- 📉 **Past failures** is the single strongest negative predictor — two or more failures sharply increases predicted failure risk
+- 📉 **Past failures** is the single strongest negative predictor - two or more failures sharply increases predicted failure risk
 - 📉 **Absences** are the second strongest negative factor, compounding with poor health
 - 📈 **Study time** and **parental education** are the strongest positive protective factors
 - ✅ **Fairness audit**: no demographic attribute exceeds the 0.10 disparity threshold on accuracy or F1
